@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyscrh"
+version = "0.1.8"
+description = "A tiny Scratch-style sprite library built on pygame, for people moving from Scratch to Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "魔丸编程", email = "17516332069@163.com" }
+]
+keywords = ["scratch", "pygame", "game", "sprite", "education", "beginner"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Games/Entertainment",
+  "Topic :: Education",
+  "Intended Audience :: Education",
+]
+dependencies = [
+  "pygame>=2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/CutePandaXJK/pyscrh"
+Repository = "https://github.com/CutePandaXJK/pyscrh"
